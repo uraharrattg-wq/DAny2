@@ -1,37 +1,37 @@
 // values.js
 
 // Основные данные 
-var fio               = "Романенко Амір Альбертович";
-var fio_en            = "Romanenko Amir";
-var birth             = "15.10.2003"; //дата рождения
-var date_give         = "23.03.2023"; //Дата видачи
-var date_out          = "23.03.2033"; // действителен до
-var organ             = "4811"; //орган что выдал документ
-var rnokpp            = "3790808658"; //ИНН
-var uznr              = "20031015-10632"; //Номер записи
-var pass_number       = "008928869"; //номер паспорта
+var fio               = "Мутян Давид Михайлович";
+var fio_en            = "Muntian Davyd";
+var birth             = "08.02.2005"; //дата рождения
+var date_give         = "01.02.2024"; //Дата видачи
+var date_out          = "01.02.2034"; // действителен до
+var organ             = "3DEU2"; //орган что выдал документ
+var rnokpp            = "3790808058"; //ИНН
+var uznr              = "20050208-10752"; //Номер записи
+var pass_number       = "008128469"; //номер паспорта
 
 var registeredOn      = "12.12.2017"; //дата регистрации
 
 // Прописка
-var legalAdress       = "М. Миколаїв, Миколаївська область"; //Место проживание
-var live              = "М. Миколаїв, Миколаївська область"; //Место рождение 
-var bank_adress       = "М. Миколаїв, Миколаївська область, Вул. Родина 197"; //Место жительства указано в банке
+var legalAdress       = "Одеська область, місто Ізмаїл, провулок Бєлінського, 50"; //Место проживание
+var live              = "Одеська область, місто Ізмаїл"; //Место рождение 
+var bank_adress       = "Одеська область, місто Ізмаїл, провулок Бєлінського, 50"; //Место жительства указано в банке
 
 var sex               = "Ч";
 var sex_en            = "M";
 
 // Данные для Прав
 var rights_categories = "B"; //Категории
-var prava_number      = "AUX723027"; // номер прав
-var prava_date_give   = "16.02.2024"; //Дата выдачи Прав
-var prava_date_out    = "16.02.2054"; //Действителен ДО
+var prava_number      = "AUK713027"; // номер прав
+var prava_date_give   = "10.05.2023"; //Дата выдачи Прав
+var prava_date_out    = "10.05.2053"; //Действителен ДО
 var pravaOrgan        = "4811"; //орган который выдал
 
 // заграник
-var zagran_number     = "GF510774"; //номер загран
-var dateGiveZ         = "07.04.2023"; //выдан загран
-var dateOutZ          = "07.04.2033"; //коньчаеться загран
+var zagran_number     = "PU942925"; //номер загран
+var dateGiveZ         = "01.02.2024"; //выдан загран
+var dateOutZ          = "01.02.2034"; //коньчаеться загран
 
 
 
@@ -60,12 +60,13 @@ var isStudyEnabled    = false;
 // Пути к нужным фото    ?timestamp=N   "photo.jpg?timestamp=N" динамически: var url = "photo.jpg?timestamp=" + N;
 
 var photo_passport = "pass.png"; //эДок, паспорт,
-var photo_rights   = "prav.png"; //права
+var photo_rights   = "prav2.png"; //права
 var photo_students = "1.jpg"; //диплом, студ
-var photo_zagran   = "pass.png"; //загран
+var photo_zagran   = "zagran.png"; //загран
 
 var signPng           = "sign.png"; //подпись
 // Можно добавить еще, если надо
+
 
 
 
